@@ -641,10 +641,10 @@
     <button>INICIO</button>
     <button>JUEGOS</button>
     <button>RANKINGS</button>
-
-    <button class="account-button">
-        👤 CUENTA
-    </button>
+<button class="account-button" onclick="openAccount()">
+    👤 CUENTA
+</button>
+    
 
     <button class="extras-button">
         ☰ EXTRAS
@@ -846,7 +846,9 @@
         const uploadPanel = document.getElementById("uploadPanel");
 
 
-        function showPanel(panel) {
+       function openAccount() {
+    alert("Sistema de cuentas próximamente");
+}
 
             mainButtons.classList.remove(
                 "rankings-active",
