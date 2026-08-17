@@ -31,6 +31,31 @@
             overflow-x: hidden;
         }
 
+.account-button {
+    padding: 13px 16px;
+
+    background: #1756a5;
+    border: 3px solid #4389dc;
+
+    box-shadow: 4px 4px 0 #082c59;
+
+    color: white;
+
+    font-family: "Press Start 2P", monospace;
+    font-size: 11px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
+}
+
+.account-button:hover {
+    transform: translateY(-2px);
+    background: #236fc8;
+}
+        
         /* =========================
            FONDO ANIMADO
         ========================= */
@@ -613,14 +638,18 @@
         </a>
 
         <nav>
-            <button>INICIO</button>
-            <button>JUEGOS</button>
-            <button>RANKINGS</button>
+    <button>INICIO</button>
+    <button>JUEGOS</button>
+    <button>RANKINGS</button>
 
-            <button class="extras-button">
-                ☰ EXTRAS
-            </button>
-        </nav>
+    <button class="account-button">
+        👤 CUENTA
+    </button>
+
+    <button class="extras-button">
+        ☰ EXTRAS
+    </button>
+</nav>
 
     </header>
 
